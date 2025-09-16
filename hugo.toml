@@ -1,13 +1,13 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Roby Van Damme"
 
 [module]
   [[module.imports]]
     path = "github.com/hugo-sid/hugo-blog-awesome"
 
 [params]
-  description = "Minimal Hugo blog theme with light and dark mode support"
+  description = "Roby Van Damme's blog"
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
@@ -25,11 +25,11 @@ title = 'My New Hugo Site'
   # By default (or if nothing is specified), summary is used.
 
 [params.author]
-  avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
+  avatar = "me.png" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
+  intro = "Roby Van Damme"
   name = "Roby Van Damme"
-  description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog."
+  description = "Software developer & consultant"
 
 [menu]
 [[menu.main]]
@@ -44,8 +44,3 @@ title = 'My New Hugo Site'
     name = 'Posts'
     url = '/posts/'
     weight = 20
-[[menu.main]]
-    pageRef="about"
-    name = 'About'
-    url = '/about/'
-    weight = 30
