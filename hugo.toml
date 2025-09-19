@@ -1,10 +1,12 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://robyvandamme.github.io'
 languageCode = 'en-us'
 title = "Roby Van Damme"
 
 [module]
   [[module.imports]]
     path = "github.com/hugo-sid/hugo-blog-awesome"
+  [[module.imports]]
+    path = "github.com/divinerites/plausible-hugo"
 
 [params]
   description = "Roby Van Damme's blog"
@@ -30,6 +32,10 @@ title = "Roby Van Damme"
   intro = "Roby Van Damme"
   name = "Roby Van Damme"
   description = "Software developer & consultant"
+
+[params.plausible]
+  enable = false  # Whether to enable plausible tracking
+  domain = "robyvandamme.github.io"  # Plausible "domain" name/id in your dashboard
 
 [menu]
 [[menu.main]]
