@@ -1,0 +1,6 @@
+baseURL = 'http://localhost:1313'
+
+[params.plausible]
+  enable = false  # Whether to enable plausible tracking
+  domain = "robyvandamme.github.io"  # Plausible "domain" name/id in your dashboard
+

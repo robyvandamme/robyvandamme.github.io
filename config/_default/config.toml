@@ -1,4 +1,4 @@
-baseURL = 'https://robyvandamme.github.io'
+
 languageCode = 'en-us'
 title = "Roby Van Damme"
 
@@ -7,6 +7,7 @@ title = "Roby Van Damme"
     path = "github.com/hugo-sid/hugo-blog-awesome"
   [[module.imports]]
     path = "github.com/divinerites/plausible-hugo"
+
 
 [params]
   description = "Roby Van Damme's blog"
@@ -32,21 +33,3 @@ title = "Roby Van Damme"
   intro = "Roby Van Damme"
   name = "Roby Van Damme"
   description = "Software developer & consultant"
-
-[params.plausible]
-  enable = false  # Whether to enable plausible tracking
-  domain = "robyvandamme.github.io"  # Plausible "domain" name/id in your dashboard
-
-[menu]
-[[menu.main]]
-    # The page reference (pageRef) is useful for menu highlighting
-    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
-    pageRef="/"
-    name = 'Home'
-    url = '/'
-    weight = 10
-[[menu.main]]
-    pageRef="posts"
-    name = 'Posts'
-    url = '/posts/'
-    weight = 20
