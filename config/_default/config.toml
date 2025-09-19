@@ -33,3 +33,8 @@ title = "Roby Van Damme"
   intro = "Roby Van Damme"
   name = "Roby Van Damme"
   description = "Software developer & consultant"
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
