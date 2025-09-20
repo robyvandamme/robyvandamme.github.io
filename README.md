@@ -5,7 +5,7 @@
 * [Quick start](https://gohugo.io/getting-started/quick-start/)
 * [Docs](https://gohugo.io/documentation/)
 * [Host on GitHub](https://gohugo.io/host-and-deploy/host-on-github-pages/)
-* [Theme](https://github.com/hugo-sid/hugo-blog-awesome)
+* [Theme (Hugo Blog Awesome)](https://github.com/hugo-sid/hugo-blog-awesome)
 
 ## Analytics
 
@@ -19,7 +19,7 @@ hugo server -D
 
 ## Posting 
 
-_Review it this makes sense._
+_Review if this makes sense._
 
 In case of a post without images or other assets, simply create a new post.
 
@@ -33,6 +33,12 @@ In case of a post with images or other assets use a leaf bundle.
 
 See the Just Testing post for an example.
 
+# Favicons
 
+Generated on https://realfavicongenerator.net following the theme readme.
 
+Notes:
+* There seem to be be some differences between what was generated and the defaults from the theme. Some appear to be obsolete.
+* Added the ones that were missing. Can be reviewed at a later time.
+* The web-app-manifest icons do not seem to get copied to the public directory.
 
