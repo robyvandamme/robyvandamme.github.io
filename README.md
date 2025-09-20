@@ -19,7 +19,7 @@ hugo server -D
 
 ## Posting 
 
-_Review if this makes sense._
+_Probably want to review this as I go along. Not sure if this makes sense of not..._
 
 In case of a post without images or other assets, simply create a new post.
 
@@ -30,6 +30,10 @@ hugo new content content/posts/my-first-post.md
 In case of a post with images or other assets use a leaf bundle.
 
 > A leaf bundle is a directory that contains an index.md file and zero or more resources. Analogous to a physical leaf, a leaf bundle is at the end of a branch. It has no descendants.
+
+```
+hugo new --kind post-bundle posts/my-new-post
+```
 
 See the Just Testing post for an example.
 
