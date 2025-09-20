@@ -1,6 +1,9 @@
 baseURL = 'http://localhost:1313'
 
 [params.plausible]
-  enable = false  # Whether to enable plausible tracking
+  enable = true  # Whether to enable plausible tracking - change to true in case of issues to verify locally
   domain = "robyvandamme.github.io"  # Plausible "domain" name/id in your dashboard
-
+  outbound_link = false
+  file_downloads = false
+  debug = false # change to true for debugging locally
+  gitstar = false

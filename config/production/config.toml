@@ -1,5 +1,9 @@
 baseURL = 'https://robyvandamme.github.io'
 
 [params.plausible]
-  enable = true  # Whether to enable plausible tracking
-  domain = "robyvandamme.github.io"  # Plausible "domain" name/id in your dashboard
+  enable = true  
+  domain = "robyvandamme.github.io"
+  outbound_link = false
+  file_downloads = false
+  debug = false
+  gitstar = false
