@@ -10,7 +10,7 @@ title = "Roby Van Damme"
 
 
 [params]
-  description = "Roby Van Damme's blog"
+  description = "Roby Van Damme is a software developer and consultant"
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
