@@ -13,8 +13,16 @@
 
 ## Testing Locally
 
+Including drafts:
+
 ```
 hugo server -D
+```
+
+For full rebuilds on change:
+
+```
+hugo server -D --disableFastRender 
 ```
 
 ## Posting 
@@ -36,6 +44,12 @@ hugo new --kind post-bundle posts/my-new-post
 ```
 
 See the Just Testing post for an example.
+
+## Excluding a page from RSS
+
+```toml
+rssIgnore = true
+```
 
 # Favicons
 
