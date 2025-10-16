@@ -45,3 +45,11 @@ title = "Roby Van Damme"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/robyvandamme"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/robyvandamme"
