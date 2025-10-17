@@ -53,3 +53,11 @@ url = "https://www.linkedin.com/in/robyvandamme"
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/robyvandamme"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:hello@robyvandamme.com"
+
+[[params.socialIcons]]
+name = "rss"
+url = "https://robyvandamme.com/index.xml"
