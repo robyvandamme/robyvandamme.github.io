@@ -31,6 +31,7 @@
 {{- if ge $limit 1 }}
 {{- $pages = $pages | first $limit }}
 {{- end }}
+{{- $rssFeedDescription := .Site.Params.rssFeedDescription | default "summary" -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -53,7 +54,12 @@
       <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Summary | transform.XMLEscape | safeHTML }}</description>
+      {{ if eq $rssFeedDescription "summary"}}
+      <description>{{ .Summary | transform.XMLEscape | safeHTML  }}</description>
+      {{ else if (eq $rssFeedDescription "full")}}
+      <description>{{ .Content | transform.XMLEscape | safeHTML }}</description>
+      {{ else }} {{ errorf "Error in RSS feed generation %q" .Path }}
+      {{ end }}
     </item>
     {{- end }} {{- end }}
   </channel>
