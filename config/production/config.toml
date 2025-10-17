@@ -1,8 +1,8 @@
-baseURL = 'https://robyvandamme.github.io'
+baseURL = 'https://robyvandamme.com'
 
 [params.plausible]
   enable = true  
-  domain = "robyvandamme.github.io"
+  domain = "robyvandamme.com"
   outbound_link = false
   file_downloads = false
   debug = false
